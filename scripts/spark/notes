@@ -1,0 +1,14 @@
+ami-2801eb48
+
+
+in all nodes
+line 52 and append in spark-env.sh
+export SPARK_PUBLIC_DNS="current_node_public_dns"  
+export SPARK_WORKER_CORES=6 
+
+in master
+SPARK_HOME/conf/slaves
+spark_worker1_public_dns  
+
+$SPARK_HOME/sbin/start-all.sh
+spark_master_public_dns:8080
