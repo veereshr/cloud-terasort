@@ -1,9 +1,0 @@
-{
-  "ImageId": "ami-948d67f4",
-  "KeyName": "c3-large-fresh",
-  "SecurityGroupIds": ["sg-b22947d5"],
-  "InstanceType": "c3.4xlarge",
-  "Placement": {
-    "AvailabilityZone": "us-west-2b"
-  }
-}
